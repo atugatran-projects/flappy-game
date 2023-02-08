@@ -24,7 +24,7 @@ scene("game", () => {
 	const bean = add([
 		// sprite() means it's drawn with a sprite of name "bean" (defined above in 'loadSprite')
 		sprite("bean"),
-		scale(0.07),		// give it a position
+		scale(0.06),		// give it a position
 		pos(width() / 4, 0),
 		// give it a collider
 		area(),
@@ -118,7 +118,7 @@ scene("game", () => {
 	add([
 		text("(space) Start"),
 		origin("center"),
-		pos(100, 60),
+		pos(100, 45),
 		scale(0.3),
 		fixed(),
 	])
